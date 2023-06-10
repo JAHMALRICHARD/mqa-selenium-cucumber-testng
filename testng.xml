@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Mastering QA Selenium Cucumber TestNG ">
+    <test name="Cucumber TestNG Simple Framework">
+         <classes>
+             <class name="com.mqa.runners.LoginPageRunner"/>
+          </classes>
+     </test>
+</suite>
