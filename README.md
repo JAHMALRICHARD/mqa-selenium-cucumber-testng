@@ -1,14 +1,4 @@
-# mqa-selenium-cucumber-testng
-Java Selenium Automation Testing Framework using Cucumber, TestNG Runner, Junit Asserts &amp; Extents Report 
-
-Do mvn install to download the dependencies
-To run script - mvn verify
-
 # Selenium Cucumber Maven TestNG Web Automation Sample Project
-
-Selenium Cucumber Maven TestNG Web Automation Sample Project by MasteringQA
-
-In this project the script will log into an application and capture screenshots and generate a ExtentReport
 
 Pre Requisities 
 
@@ -25,14 +15,25 @@ Ensure you have JAVA and MAVEN installed on your machine
 
 ## Project Description
 
-Provide a detailed explanation of your project. Include information such as its purpose, key features, and any relevant background or context. You can also include screenshots or diagrams to make it more visually appealing.
+Java Selenium Automation Testing Framework using Cucumber, TestNG Runner, Junit Asserts &amp; Extents Report 
+
+In this project there is one cucmber feature file that has two test scenarios.
+
+1) Log into application with incorrect password
+2) Log into the application with correct password
+
+Afer the test is executed it will generate a Extents Report with the steps and screenshot attached. You will have to refresh you prohject (F5)
+to see the new report folder.
+
 
 ## Installation
 
-clone project
-Ensure you have Maven installed on your machine.
-Do 'mvn install' to download the dependencies
-Do 'mvn verify' to run the project
+1) Clone this project onto your machine
+2) Ensure you have Maven installed on your machine.
+3) Open the project in your IDE (VSCODE or Eclipse)
+4) Type ``` mvn install ``` in your project terminal, this will install the project dependencies.
+5) To Run the script type ``` mvn verify ```
+6) The script will  execute the test scenarios via  Chrome Test Browser (C 
 
 
 ## Usage
