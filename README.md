@@ -33,7 +33,7 @@ to see the new report folder.
 3) Open the project in your IDE (VSCODE or Eclipse)
 4) Type ``` mvn install ``` in your project terminal, this will install the project dependencies.
 5) To Run the script type ``` mvn verify ```
-6) The script will  execute the test scenarios via  Chrome Test Browser (C 
+6) The script will  execute the test scenarios via  Chrome Test Browser (chromedriver)
 
 
 ## Usage
